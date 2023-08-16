@@ -4,14 +4,20 @@
       "noImplicitAny": true,
       "removeComments": true,
       "preserveConstEnums": true,
-      "sourceMap": true
+      "sourceMap": true,
+      "jsx": "react",
+      "allowImportingTsExtensions": true,
+      "noEmit": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true
     },
     "files": [
-      "Book.js",
-      "BookHeader.js",
-      "MainBlock.js",
-      "Canvas.tsx",
-      "FirstPage.tsx",
-      "Page.tsx"
+      "pages/Book/Book.tsx",
+      "pages/Book/BookHeader.tsx",
+      "pages/Book/MainBlock.tsx",
+      "pages/Book/Canvas.tsx",
+      "pages/Book/FirstPage.tsx",
+      "pages/Book/Page.tsx",
+      "pages/Book/HeaderBubbles.tsx"
     ]
   }

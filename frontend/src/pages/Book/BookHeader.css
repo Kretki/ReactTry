@@ -17,7 +17,7 @@ body {
     overflow-x: hidden;
 }
 .head-list{
-    height: 8vmin;
+    height: 80px;
     width: 100%;
     margin: 0;
     padding: 0 0 0 0;
@@ -25,27 +25,27 @@ body {
     position: relative;
 }
 .head-list li{
-    height: 8vmin;
+    height: 80px;
     display: table-cell;
     position: absolute;
 }
 #li-menu{
-    width: 8vmin;
+    width: 80px;
 }
 #li-head{
-    margin-left: 8vmin;
-    width: calc(100% - 8vmin);
+    margin-left: 80px;
+    width: calc(100% - 80px);
 }
 .head-menu{
-    height: 8vmin;
+    height: 80px;
     width: 100%;
     background: var(--prime-color);
-    text-align: right;
     user-select: none;
+    white-space: nowrap;
 }
 #main-menu{
-    height: 8vmin;
-    width: 8vmin;
+    height: 80px;
+    width: 80px;
     background-color: var(--dark-prime-color);
     background-image: url(menu.svg);
     background-position: center;
@@ -66,35 +66,30 @@ body {
 }
 #set-hint, #save-file, #set-reading{
     position: relative;
-    right: 14vmin;
-    top: 2vmin;
-    bottom: 2vmin;
-    height: 4vmin;
-    width: 10vmin;
+    top: 20px;
+    bottom: 20px;
+    height: 40px;
+    width: 100px;
     background-color: var(--dark-prime-color);
     color: var(--text-color);
     font-weight: bold;
-    font-size: 1.5vmin;
+    font-size: 15px;
     border: none;
-    border-radius: 0.7vmin;
-    letter-spacing: 0.2vmin;
+    border-radius: 7px;
+    letter-spacing: 2px;
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
     user-select: none;
 }
-#save-file{
-    right: 12vmin;
-}
 #set-reading{
-    width: 14vmin;
-    right: 16vmin;
+    width: 140px;
 }
 #set-hint:hover, #save-file:hover, #set-reading:hover{
     background: var(--secondary-color);
     color: var(--black);
-    box-shadow: 0 0 0.4vmin var(--secondary-color),
-                0 0 0.8vmin var(--secondary-color),
-                0 0 1.5vmin var(--secondary-color),
-                0 0 2vmin var(--secondary-color);
+    box-shadow: 0 0 4px var(--secondary-color),
+                0 0 8px var(--secondary-color),
+                0 0 15px var(--secondary-color),
+                0 0 20px var(--secondary-color);
 }

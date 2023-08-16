@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 import ReviewDetails from './pages/ReviewDetails'
 import Category from './pages/Category'
-import Book from './pages/Book/Book'
+import Book from './pages/Book/Book.tsx'
 
 function App() {
   return (
