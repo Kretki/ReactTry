@@ -1,0 +1,5 @@
+#main-container{
+    position: absolute;
+    transition: transform 0.5s;
+    display: inline;
+}

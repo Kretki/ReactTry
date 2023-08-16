@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true
+    },
+    "files": [
+      "Book.js",
+      "BookHeader.js",
+      "MainBlock.js",
+      "Canvas.tsx",
+      "FirstPage.tsx",
+      "Page.tsx"
+    ]
+  }

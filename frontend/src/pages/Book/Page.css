@@ -1,0 +1,76 @@
+.paper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    perspective: 3500px;
+}
+.paper > *{
+    color: black;
+}
+.notransition{
+    transition: none !important;
+}
+.front, .back{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+.front{
+    z-index: 1;
+    backface-visibility: hidden;
+    border-left: 3px solid black;
+}
+.back{
+    z-index: 0;
+}
+.front-content,
+.back-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.back-content{
+    transform: rotateY(180deg);
+}
+.flipped .front,
+.flipped .back{
+    transform: rotateY(-180deg);
+}
+
+#p1{
+    z-index: 5;
+}
+#p2{
+    z-index: 4;
+}
+#p3{
+    z-index: 3;
+}
+#p4{
+    z-index: 2;
+}
+#f1{
+    display: grid;
+    align-items: center;
+}
+#f1>*{
+    margin: 0 auto;
+}
+.back-content>p{
+    margin: 10px 10px 10px 10px;
+    text-align: justify;
+    white-space: pre-line;
+}
+.front-content>p{
+    margin: 10px 10px 10px 10px;
+    text-align: justify;
+    white-space: pre-line;
+}
