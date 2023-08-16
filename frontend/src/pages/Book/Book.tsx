@@ -1,6 +1,7 @@
 import React from "react";
-import MainBlock from "./MainBlock.tsx";
+import MainBlock from "./MainBlock/MainBlock.tsx";
 import BookHeader from "./BookHeader.tsx";
+import BlockNotes from './NotesBlock/BlockNotes.tsx'
 import './Book.css'
 
 export default function Book() {
@@ -11,6 +12,7 @@ export default function Book() {
       <BookHeader />
       <div id="main-container" style={{left: window.screen.width/2-width/2, top:150}}>
         <MainBlock height={height} width={width} />
+        <BlockNotes />
       </div>
     </>
   );

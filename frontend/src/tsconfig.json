@@ -14,10 +14,11 @@
     "files": [
       "pages/Book/Book.tsx",
       "pages/Book/BookHeader.tsx",
-      "pages/Book/MainBlock.tsx",
-      "pages/Book/Canvas.tsx",
-      "pages/Book/FirstPage.tsx",
-      "pages/Book/Page.tsx",
-      "pages/Book/HeaderBubbles.tsx"
+      "pages/Book/MainBlock/MainBlock.tsx",
+      "pages/Book/MainBlock/Canvas/Canvas.tsx",
+      "pages/Book/MainBlock/Canvas/FirstPage.tsx",
+      "pages/Book/MainBlock/Canvas/Page.tsx",
+      "pages/Book/MainBlock/HeaderBubbles.tsx",
+      "pages/Book/NotesBlock/BlockNotes.tsx"
     ]
   }

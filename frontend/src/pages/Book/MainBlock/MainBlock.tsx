@@ -1,5 +1,5 @@
 import React from "react";
-import Canvas from "./Canvas.tsx";
+import Canvas from "./Canvas/Canvas.tsx";
 import HeaderBubbles from './HeaderBubbles.tsx'
 import './MainBlock.css'
 
