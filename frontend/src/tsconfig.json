@@ -12,6 +12,7 @@
       "esModuleInterop": true
     },
     "files": [
+      "pages/Header.tsx",
       "pages/Book/Book.tsx",
       "pages/Book/BookHeader.tsx",
       "pages/Book/MainBlock/MainBlock.tsx",
@@ -19,6 +20,9 @@
       "pages/Book/MainBlock/Canvas/FirstPage.tsx",
       "pages/Book/MainBlock/Canvas/Page.tsx",
       "pages/Book/MainBlock/HeaderBubbles.tsx",
-      "pages/Book/NotesBlock/BlockNotes.tsx"
+      "pages/Book/NotesBlock/BlockNotes.tsx",
+      "pages/Timeline/TimelinePage.tsx",
+      "pages/Timeline/Timeline.tsx",
+      "pages/Timeline/TimelineEl.tsx"
     ]
   }

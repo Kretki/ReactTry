@@ -12,7 +12,7 @@ export default function Book() {
       <BookHeader />
       <div id="main-container" style={{left: window.screen.width/2-width/2, top:150}}>
         <MainBlock height={height} width={width} />
-        <BlockNotes />
+        <BlockNotes width={width}/>
       </div>
     </>
   );

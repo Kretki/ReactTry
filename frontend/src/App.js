@@ -5,6 +5,7 @@ import Homepage from './pages/Homepage'
 import ReviewDetails from './pages/ReviewDetails'
 import Category from './pages/Category'
 import Book from './pages/Book/Book.tsx'
+import TimelinePage from './pages/Timeline/TimelinePage.tsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/details/:id" element={<ReviewDetails/>} />
           <Route path="/category/:id" element={<Category/>} />
           <Route path="/book/:id" element={<Book/>} />
+          <Route path="/timeline/:id" element={<TimelinePage/>} />
         </Routes>
       </div>
     </Router>
